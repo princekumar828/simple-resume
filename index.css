@@ -1,0 +1,74 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: rgb(89, 73, 46);
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+p, h3 {
+    color: white;
+}
+
+h2 {
+    font-family: Sixtyfour;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px black;
+    margin: 15px;
+}
+
+.logo_img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%; 
+    box-shadow: 5px 5px 7px black;
+    max-width: 100%;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+tr, th, td {
+    border: 1px dotted;
+}
+
+
+.socialmedia li {
+    list-style: none;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: white;
+}
+
+.socialmedia_inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia_inner a:hover {
+    color: aqua;
+}
+.educational_and_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.logo{
+    margin-top: 100px;
+    margin-left: 30px;
+}
